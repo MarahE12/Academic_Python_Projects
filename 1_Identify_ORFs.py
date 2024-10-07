@@ -9,7 +9,7 @@ from 1_toolkit import reverse_complement
 from 1_toolkit import orf_finder
 
 #Step 2: open the fasta file
-record_description, dna_seq = read_fasta('Oryza_sativa.IRGSP-1.0.dna.toplevel.fa1.fasta')
+record_description, dna_seq = read_fasta('chromosome.fasta')
 print(f'Description: {record_description}'
       f'\nDNA: {dna_seq}')
 
