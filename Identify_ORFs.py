@@ -1,14 +1,12 @@
-#Declaration:
-#I, Marah Elhariry, declare that I have employed Chat-GPT-3.5, to assist in the creation of this .py
-# of script. Specifically, I used it to proactively identify and handle potential exceptions and errors that
-#may arise during execution.
-
+## For this assignment, I was tasked to write functions that can read chromosome sequence from a fasta formatted file, 
+## and search for possible open reading frames (ORFs) that are longer than 50 amino acids in a 6 frame translation of the DNA.
+## In the following script, I call the functions I created from '1_toolkit.py' and complete the task.
 
 #Step 1: import toolkit functions
-from toolkit import read_fasta
-from toolkit import translate_dna
-from toolkit import reverse_complement
-from toolkit import orf_finder
+from 1_toolkit import read_fasta
+from 1_toolkit import translate_dna
+from 1_toolkit import reverse_complement
+from 1_toolkit import orf_finder
 
 #Step 2: open the fasta file
 record_description, dna_seq = read_fasta('Oryza_sativa.IRGSP-1.0.dna.toplevel.fa1.fasta')
