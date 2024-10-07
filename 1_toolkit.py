@@ -1,7 +1,6 @@
-#Declaration:
-#I, Marah Elhariry, declare that I have employed Chat-GPT-3.5, to assist in the creation of this .py
-# of script. Specifically, I used it to proactively identify and handle potential exceptions and errors that
-#may arise during execution.
+## In this assignment, I was tasked to write functions that can read in a DNA sequence, 
+## translate a DNA sequence into protein sequence and handle different starting frames and strands
+## I will then use these functions to process a chromosome FASTA file in "1_Identify_ORFs.py'
 
 #produce a function to translate DNA into protein
 def translate_dna(dna_seq):
