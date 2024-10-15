@@ -1,7 +1,4 @@
-#GAI Declaration:
-#I, Marah Elhariry, declare that I have employed Chat-GPT-3.5, to assist in the creation of this .py script.
-#Specifically, I used it to proactively identify and handle potential exceptions and errors that
-#may arise during execution.
+
 
 #####
 
