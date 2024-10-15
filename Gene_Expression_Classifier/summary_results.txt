@@ -1,0 +1,10 @@
+Confusion Matrix:
+[[ 6.   0.   0. ]
+ [ 0.   4.6  1.4]
+ [ 0.   0.  19. ]]
+               precision      recall         f1-score       support        
+influenza      1.00               1.00               1.00               6.00
+RSV            1.00               0.77               0.87               6.00
+none           0.93               1.00               0.96               19.00
+Average Accuracy Score:
+0.9548387096774194
